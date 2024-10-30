@@ -1,6 +1,6 @@
 #Script to plot data and model
 
-growth_data <- read.csv("???")
+growth_data <- read.csv("experiment.csv")
 
 logistic_fun <- function(t) {
   
@@ -10,13 +10,13 @@ logistic_fun <- function(t) {
   
 }
 
-N0 <- ??? #
+N0 <- 879 #
   
-r <- ??? #
+r <- 0.01 # Gradient of fit linear model
   
-K <- ??? #
+K <- 60000000000 # Carrying capicity from log graph
 
-ggplot(aes(???,???), data = growth_data) +
+ggplot(aes(t,N), data = growth_data) +
   
   geom_function(fun=logistic_fun, colour="red") +
   
@@ -24,4 +24,8 @@ ggplot(aes(???,???), data = growth_data) +
 
   #scale_y_continuous(trans='log10')
 
+#sink(file = "package-versions.txt")
+#sessionInfo()
+#sink()
 
+# git config --global user.email "marcus.williamson@some.ox.ac.uk"
