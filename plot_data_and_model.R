@@ -10,20 +10,20 @@ logistic_fun <- function(t) {
   
 }
 
-N0 <- 879 #
+N0 <- 879 # I actually think its 987
   
-r <- 0.01 # Gradient of fit linear model
+r <- 0.01 # Gradient of fit linear model (model1)
   
-K <- 60000000000 # Carrying capacity from log graph
+K <- 60000000000 # Carrying capacity from log graph (model2)
 
 
 ggplot(aes(t,N), data = growth_data) +
   
   geom_function(fun=logistic_fun, colour="red") +
   
-  geom_point()
+  geom_point() 
 
-  #scale_y_continuous(trans='log10')
+  # scale_y_continuous(trans='log10')
 
 #sink(file = "package-versions.txt")
 #sessionInfo()
