@@ -14,11 +14,8 @@ N0 <- 879 #
   
 r <- 0.01 # Gradient of fit linear model
   
-<<<<<<< HEAD
 K <- 60000000000 # Carrying capacity from log graph
-=======
-K <- 60000000000 # Carrying capicity from log graph
->>>>>>> 9e49e242bf012c117978c3ff59eac67b269c2cff
+
 
 ggplot(aes(t,N), data = growth_data) +
   
@@ -32,4 +29,3 @@ ggplot(aes(t,N), data = growth_data) +
 #sessionInfo()
 #sink()
 
-# git config --global user.email "marcus.williamson@some.ox.ac.uk"
