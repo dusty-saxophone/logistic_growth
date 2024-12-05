@@ -10,7 +10,7 @@ logistic_fun <- function(t) {
   
 }
 
-N0 <- 879 # I actually think its 987
+N0 <- 879 # I actually think its 987.
   
 r <- 0.01 # Gradient of fit linear model (model1)
   
