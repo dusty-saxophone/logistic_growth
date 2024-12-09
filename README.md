@@ -18,7 +18,7 @@ Estimation of these parameters can be achieved by fitting linear models to the d
 
 <p align="center">
 
-<img src="https://github.com/dusty-saxophone/logistic_growth/blob/main/logistic_growth(2).png" width="650" height="300"/>
+![](https://github.com/dusty-saxophone/logistic_growth/blob/main/Graph_images/logistic_growth(2).png)
 
 </p>
 
@@ -141,4 +141,8 @@ Under the logistic growth model at t = 4980, the population size is 6 x 10<sup>1
 
 ### Graph comparing logistic vs exponential growth
 
+<p align="center">
+
 ![](https://github.com/dusty-saxophone/logistic_growth/blob/main/Graph_images/growth_comparison_plot.png)
+
+</p>
