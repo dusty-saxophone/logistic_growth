@@ -1,3 +1,7 @@
+---
+---
+---
+
 # R scripts for a reproducible analysis of logistic growth
 
 ## Question 1
@@ -43,9 +47,7 @@ Linear regression 1:
 
 $$
 ln(N) = ln(N_0) + rt \\
-$$
-
-As the equation for a line is:
+$$As the equation for a line is:
 
 $$
 y = b + mx
@@ -64,7 +66,7 @@ $$
 
 #### Estimating carrying capacity (K)
 
-Carrying capacity is estimated using linear model 2(t \> 2500). This is a horizontal line (gradient = 0) in which the intercept is representative of the carrying capacity.
+Carrying capacity is estimated using linear model 2 (t \> 2500). This is a horizontal line (gradient = 0) in which the intercept is representative of the carrying capacity.
 
 Linear regression 2:
 
