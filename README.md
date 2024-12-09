@@ -43,26 +43,23 @@ Two linear models are required to represent the two linear portions of the log t
 
 Growth rate is estimated using linear model 1 (t \< 1200). The gradient of this line is equivalent to the growth rate of the bacterial population - the change in population size over time. The intercept of this line is equivalent to the starting population size of the bacterial culture.
 
-Linear regression 1:
+Linear regression:
 
-$$
-ln(N) = ln(N_0) + rt \\
-$$As the equation for a line is:
+$ln(N) = ln(N_0) + rt$
 
-$$
-y = b + mx
-$$Therefore:
+As the equation for a line is:
 
-$$
-r = 0.01
-$$
+$y = b + mx$
+
+Therefore:
+
+$r = 0.01$
 
 And:
 
-$$
-ln(N_0) = 6.89... \\
-N_0 = 987
-$$
+$ln(N_0) = 6.89...$
+
+$N_0 = 987$
 
 #### Estimating carrying capacity (K)
 
@@ -70,16 +67,12 @@ Carrying capacity is estimated using linear model 2 (t \> 2500). This is a horiz
 
 Linear regression 2:
 
-$$
-N(t) = K + 0\cdot t
-$$
+$N(t) = K + 0\cdot t$
 
 As the equation for a line is:
 
-$$
-y = b + mx
-$$Therefore:
+$y = b + mx$
 
-$$
-K = 6 \times 10^{10}
-$$
+Therefore:
+
+$K = 6 \times 10^{10}$
