@@ -48,7 +48,7 @@ $$
 As the equation for a line is:
 
 $$
-y = b + mx\\
+y = b + mx
 $$Therefore:
 
 $$
@@ -75,7 +75,7 @@ $$
 As the equation for a line is:
 
 $$
-y = b + mx\\
+y = b + mx
 $$Therefore:
 
 $$
