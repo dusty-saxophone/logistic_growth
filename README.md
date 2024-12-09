@@ -10,3 +10,6 @@ Bacterial populations have distinctive growth curves. They initially multiply ex
 
 ### Linear models
 Estimation of these parameters can be achieved by fitting linear models to the data which provide estimates for the gradient and intercept of the line. 
+p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/pull_request_success.png" width="520" height="80">
+</p>
