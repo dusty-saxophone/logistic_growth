@@ -9,7 +9,24 @@ Bacterial populations have distinctive growth curves. They initially multiply ex
 3. Carrying capacity (K)
 
 ### Linear models
-Estimation of these parameters can be achieved by fitting linear models to the data which provide estimates for the gradient and intercept of the line. 
-p align="center">
-<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/pull_request_success.png" width="520" height="80">
+Estimation of these parameters can be achieved by fitting linear models to the data which provide estimates for the gradient and intercept of the line. However, to fit the linear models the exponential population size data must first be linearised using a log transformation.
+<p align="center">
+<img src="https://github.com/dusty-saxophone/logistic_growth/blob/main/logistic_growth(2).png" width="650" height="300">
 </p>
+Two linear models are required to represent the two linear portions of the log transformed data
+
+- Linear model 1
+  - t < 1200
+  - Used to estimate growth rate
+- Linear model 2
+  - t > 2500
+  - Used to estimate carrying capacity
+
+### Results
+#### Estimating growth rate (r)
+Growth rate is estimated using linear model 1 (t < 1200). The gradient of this line is equivalent to the growth rate of the bacterial population - the change in population size over time.
+
+
+
+
+
