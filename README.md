@@ -45,7 +45,7 @@ Growth rate is estimated using linear model 1 (t \< 1200). The gradient of this 
 
 Linear regression:
 
-$ln(N) = ln(N_0) + rt$
+<center>$ln(N) = ln(N_0) + rt$</center>
 
 As the equation for a line is:
 
