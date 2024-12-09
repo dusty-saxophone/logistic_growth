@@ -9,6 +9,16 @@ exponential_model <- data_frame(t = t, N = N)
 write.csv(exponential_model, file = "exponential_model.csv", row.names = FALSE)
 
 
+### Defining model parameters
+
+N0 <- 987 #879 # I actually think its 987.
+
+r <- 0.01 # Gradient of fit linear model (model1)
+
+K <- 60000000000 # Carrying capacity from log graph (model2)
+
+
+### Function for logistic growth
 
 logistic_growth_data <- read.csv("experiment.csv")
 
@@ -20,12 +30,8 @@ logistic_fun <- function(t) {
   
 }
 
-N0 <- 987 #879 # I actually think its 987.
 
-r <- 0.01 # Gradient of fit linear model (model1)
-
-K <- 60000000000 # Carrying capacity from log graph (model2)
-
+### Function for exponential growth
 
 exponential_growth_data <- read.csv("exponential_model.csv")
 
@@ -36,6 +42,8 @@ exponential_fun <- function(t) {
   return(N)
   
 }
+
+### Plotting both growth models
 
 ggplot(aes(t,N), data = logistic_growth_data) +
   
